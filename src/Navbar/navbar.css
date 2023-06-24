@@ -1,0 +1,60 @@
+#root {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.task-bar {
+  background-color: #ffff;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #2e2e2e;
+}
+.text-btn {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 17px;
+  background-color: #ffffff;
+  padding: 0;
+  padding-top: 5px;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+.btn2 {
+  letter-spacing: 2px;
+}
+
+.nav-logo {
+  margin-left: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.title {
+  font-style: bold;
+  font-weight: 100;
+  margin-left: 2px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .no-bullets li {
+    padding-left: 80px;
+    margin-top: 5px;
+    flex-basis: 100%;
+  }
+}
