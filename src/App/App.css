@@ -1,1 +1,23 @@
+.fetch-liked {
+  margin-top: 10px;
+  margin-left: 45px;
+  font-family: "spotify-circular";
+  background-color: #1db954;
+  border: none;
+  font-weight: bolder;
+  color: #191414;
+  padding: 10px 10px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
 
+.fet-title {
+  color: white;
+  margin-left: 20px;
+  font-size: xxx-large;
+}

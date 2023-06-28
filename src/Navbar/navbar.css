@@ -1,8 +1,11 @@
+html {
+  background-color: #191414;
+}
 #root {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "spotify-circular";
 }
 .task-bar {
-  background-color: #ffff;
+  background-color: #1db954;
   padding: 0px;
 }
 .container {
@@ -10,33 +13,49 @@
   align-items: center;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #2e2e2e;
+  width: 100%;
+  flex: 1;
+  background-color: #1db954;
+}
+.login-btn {
+  margin-left: 45px;
+  font-family: "spotify-circular";
+  background-color: #191414;
+  border: none;
+  font-weight: bolder;
+  color: #1db954;
+  padding: 10px 10px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
 }
 .text-btn {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "spotify-circular";
   font-size: 17px;
-  background-color: #ffffff;
+  background-color: #1db954;
   padding: 0;
   padding-top: 5px;
-  color: #333;
+  color: #191414;
   border: none;
   cursor: pointer;
 }
-.btn2 {
-  letter-spacing: 2px;
-}
-
 .nav-logo {
   margin-left: 10px;
-  width: 45px;
-  height: 45px;
+  margin-right: 0;
+  width: 80px;
+  height: 80px;
 }
 
 .title {
   font-style: bold;
   font-weight: 100;
-  margin-left: 2px;
+  padding-top: 6px;
+  font-size: 150;
+  margin-left: 0px;
 }
 
 .no-bullets {
